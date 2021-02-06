@@ -1,0 +1,78 @@
+figure {
+	margin: 0;
+}
+
+.gbb-img {
+	position: relative;
+	border: 1px solid white;
+}
+
+.gbb-img__button {
+	position: absolute;
+	bottom: 4px;
+	right: 4px;
+	background-color: hsla(0, 0%, 100%,1);
+	border: 1px solid grey;
+}
+
+.gbb-title {
+	margin: 3px 3px 0 0;
+}
+
+.gbb-cta a {
+	color: var(--gbb-font-highlight-color)!important;
+}
+
+.gbb-url::before {
+	margin-right: .5em;
+	content: "↳";
+}
+
+.gbb-url {
+	display: flex;
+	margin-left: calc(20% + 2em);
+	padding: .5em .5em .5em 0;
+	font-family: sans-serif;
+}
+
+.gbb-url__input {
+	margin: 0 0 0 .5em;
+	padding: 0 .5em;
+	border: 1px solid hsl(0, 0%, 50%);
+	border-radius: 3px;
+}
+
+.gbb-cta .editor-url-input__button {
+    align-self: center;
+}
+
+.gbb-cta form.editor-url-input__button-modal {
+    position: absolute;
+}
+
+.gbb-dropdown {
+	display: inline-block;
+	margin-left: .5em;
+	align-self: center;
+}
+
+.gbb-dropdown .components-button:active:enabled {
+	vertical-align: inherit;
+}
+
+.gbb-dropdown__input {
+	padding: 8px 8px 0;
+}
+
+.gbb-expanded .editor-rich-text__inline-toolbar {
+	justify-content: start;
+}
+
+.editor-styles-wrapper h3.gbb-title {
+	font-weight: lighter;
+}
+
+.wp-block[data-align="full"] .gbb-block {
+	padding: 3em;
+	box-shadow: none;
+}
